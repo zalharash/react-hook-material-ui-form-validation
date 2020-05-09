@@ -1,0 +1,35 @@
+{
+  "name": "react-hook-material-ui-form-validation",
+  "version": "1.0.0",
+  "description": "POC of using react custom hook to manage the state of a form, including email, password and phone number validation. Material-ui components are used.",
+  "keywords": [
+    "custom hook",
+    "form validation",
+    "react"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.9.13",
+    "@material-ui/icons": "4.9.1",
+    "lodash": "4.17.15",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-phone-number-input": "3.0.22",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
